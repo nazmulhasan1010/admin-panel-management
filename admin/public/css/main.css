@@ -1,0 +1,215 @@
+/*===============================coustom style===========================*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Montserrat SemiBold";
+}
+
+.fa-solid {
+    margin-right: 5px;
+    font-size: 1rem;
+}
+
+.fa-filter {
+    color: #fff;
+    margin-right: 20px;
+    font-size: 28px;
+}
+
+.fa-filter:hover {
+    opacity: .8;
+}
+
+.main {
+    display: flex;
+}
+
+.main-content {
+    width: 80%;
+    height: 100vh;
+    overflow-y: scroll;
+    position: relative;
+}
+
+.menu-colleps-on {
+    color: #fff;
+}
+
+.bg-secondary {
+    position: absolute;
+    right: 10px;
+}
+
+.toast {
+    position: absolute;
+    top: 60px;
+    right: 20px;
+}
+
+/*---------------------------- side bar ------------------------*/
+.side-top-itm {
+    width: 100%;
+    text-align: left;
+    text-transform: uppercase;
+    font-family: "Montserrat SemiBold";
+}
+
+.side-top {
+    width: 100%;
+    display: flex;
+}
+
+.side-top .fa-solid {
+    margin-right: 10px;
+    font-size: 25px;
+}
+
+.side-bar {
+    height: 100vh;
+    border-right: 2px solid rgba(255, 255, 255, 0.27);
+    width: 20%;
+}
+
+.nav-link {
+    display: flex;
+    align-items: center;
+}
+
+
+.nav-link:hover {
+    background-color: #1266f1;
+    color: #fff;
+}
+
+.menu-colleps:hover {
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+
+/*end side bar */
+
+
+/*---------------------------- contents ------------------------*/
+
+.main-top-nav {
+    display: flex;
+    justify-content: right;
+}
+
+.top-nav {
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.484);
+    position: fixed;
+    width: 80%;
+}
+
+.content-bord {
+    padding: 80px 15px 15px 15px;
+}
+
+.card-hover {
+    transition: .2s all;
+    -webkit-transition: .2s all;
+    -moz-transition: .2s all;
+    -ms-transition: .2s all;
+    -o-transition: .2s all;
+}
+
+.card-hover:hover {
+    transform: scale(1.03);
+    -webkit-transform: scale(1.03);
+    -moz-transform: scale(1.03);
+    -ms-transform: scale(1.03);
+    -o-transform: scale(1.03);
+}
+
+.card-text {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: "Helvetica Neue",
+}
+
+.table-box {
+    border: 1px solid rgba(255, 255, 255, 0.27);
+    margin-top: 20px;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+th, td {
+    margin: 0;
+    padding: -5px;
+    font-size: 14px;
+}
+
+.table-head-text {
+    color: #fff;
+    font-weight: bold;
+    font-family: "Montserrat SemiBold";
+    font-size: 20px;
+}
+
+.imgpreview {
+    height: 100px;
+    margin: 20px 0 0 0;
+    border-radius: 5px;
+    display: none;
+}
+
+.preview-img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.operationBtn {
+    background: none;
+    outline: none;
+    border: none;
+    color: #fff1d6;
+}
+
+.editbtn:hover, .delbtn:hover {
+    opacity: .8;
+}
+
+/*login*/
+
+.container-login {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../img/logInBg.jpg');
+    background-position: center center;
+    background-size: cover;
+}
+
+.log-card {
+    padding: 30px;
+    width: 30%;
+    background-color: rgba(186, 185, 185, 0.8);
+}
+
+/*sign in profile preview*/
+.profile-preview {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin: auto;
+}
+
